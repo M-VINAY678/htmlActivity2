@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Event Planning Form</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th,td {
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h2>Events</h2>
+    <table>
+        <tr>
+            <th>Event-Name</th>
+            <th>Timings</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Cricket</td>
+            <td>6pm-8pm</td>
+            <td>Parade Ground</td>
+        </tr>
+        <tr>
+            <td>Card Game</td>
+            <td>5pm-7pm</td>
+            <td>Cafeteria</td>
+        </tr>
+        <tr>
+            <td>Video Game</td>
+            <td>4pm-6pm</td>
+            <td>Meeting Rooms</td>
+        </tr>
+    </table>
+    <h2>Event Form</h2>
+    <form >
+        <label for="name">Enter your Name :</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Enter your Email :</label>
+        <input type="email" id="email" name="email"><br>
+        <label>Enter your Event</label><br>
+        <input type="radio" id="Cricket" name="event-name">
+        <label for="Cricket"> Cricket</label><br>
+        <input type="radio" id="Card Game" name="event-name">
+        <label for="Card Game">Card Game</label><br>
+        <input type="radio" id="Video Game" name="event-name">
+        <label for="Video Game"> Video Game</label><br>
+    </form>
+</body>
+</html>
