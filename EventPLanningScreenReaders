@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Web Future Con</title>
+</head>
+<body>
+    <header><h1>WEb FUTURE CON</h1></header>
+    <article>
+        <section>
+            <header><h2> Operation Sindoor</h2></header>
+            <p>Shashi Tharoor speaks at Indian Consulate as he leads All Party Delegation in US</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x0OHzwYQDkM?si=58_xE05X9P6ETWfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section>
+            <header><h2> Code Conference</h2></header>
+            <p>Is our life a simulation? Elon Musk has thought about this a lot.</p>
+            <video width="560" height="315"  src="conference.mp4" autoplay muted controls></video>
+        </section>
+        <aside>to know more about conference <a href="https://www.kdmevents.co.uk/help/types-of-conferences/">click here</a></aside>
+    </article>
+    <H2>User Form</H2>
+    <form >
+        <label for="name">Enter your Name :</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Enter your Email :</label>
+        <input type="email" id="email" name="email"><br>
+        <p id=conf>Enter your Interested Conference</p>
+        <div role="radiogroup" aria-labelledby="conf">
+            <input type="radio" id="political" name="event-name">
+            <label for="political"> Political Conference</label><br>
+            <input type="radio" id="code" name="event-name">
+            <label for="code">Code Conference</label><br>
+            </div>
+    </form>
+</body>
+</html>
